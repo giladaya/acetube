@@ -1,5 +1,5 @@
-Client for joint radio station
-Create as part of a hackathon
+Client for joint radio station  
+Created as part of a hackathon
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
