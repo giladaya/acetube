@@ -23,6 +23,7 @@ import DjSetModal from '../../DjSetModal';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import Avatar from '@material-ui/core/Avatar';
 
 const drawerWidth = 200;
 
@@ -211,6 +212,7 @@ class Dashboard extends React.Component {
               >
                 <MenuIcon />
               </IconButton>
+              <Avatar alt="Remy Sharp" src="/logo.png" className={classes.avatar} />
               <Typography variant="title" color="inherit" noWrap className={classes.title}>
                 AceTube
               </Typography>
