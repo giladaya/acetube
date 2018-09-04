@@ -1,8 +1,5 @@
 import * as Auth from './Auth';
-const API_URL = 'http://192.168.2.104:5000'
-
-// https://www.youtube.com/watch?v=t7Xt4ObtKas
-// https://www.youtube.com/watch?v=RAsN9OVI-vQ
+const API_URL = process.env.RAECT_APP_API_URL;
 
 export function getPlaylist() {
     const url = `${API_URL}/items`;
